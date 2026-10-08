@@ -11,6 +11,7 @@ public class StudiKasus1_28 {
         System.out.print("Masukkan uang yang dibayar: ");
         uangBayar = input.nextInt();
         totalHarga = hargaPerCup * jumlahCup;
+        
         if (totalHarga > 100000) {
             diskon = totalHarga * 10 / 100;
         } else {
